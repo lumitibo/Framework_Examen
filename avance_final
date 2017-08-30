@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, user-scalable=no">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/estilos_foundation.css">
+  </head>
+  <body>
+    <div class="row contendor_principal">
+      <div class="small-12 column small-order-1 contenedor_superior">
+        <div class="row align-center">
+          <div class="columns medium-3 text-left columna_cocinando">
+            <h3>Cocinando</h3>
+            <p class="slogan text-right">El Blog de los amantes de la Cocina</p>
+          </div>
+          <div class="columns medium-6 medium-offset-3">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="small-12 column small-order-3 contenedor_secundario">
+        <div class="row large-uncollapse ">
+          <div class="large-3 medium-4 columns show-for-medium">
+            <div class="callout">
+              <form>
+
+                <div class="row column text-center">
+                  <div class="row contendor_buscar ">
+                    <input class="input_buscar" type="text" placeholder="Buscar" required/>
+                    <button type="submit" name="enviar" class="button"><img src="img/buscar.png"></button>
+                  </div>
+                </div>
+                <div class="row column contenedor-boton text-center">
+                    <button type="submit" name="enviar" class="button "><a href="#"></a><i class="step fi-magnifying-glass">Inicio</i></button>
+                    <button type="submit" name="enviar" class="button "><a href="#"></a><i class="step fi-magnifying-glass">Mi Plato Perfecto</i> </button>
+                    <button type="submit" name="enviar" class="button "><a href="#"></a><i class="step fi-magnifying-glass">Mis Recetas</i> </button>
+                </div>
+              </form>
+              <div class="row column">
+                <p class="textos">Favoritos:</p>
+              </div>
+              <div class="row column text-center">
+                <div class="row ">
+                  <img src="img/budin.jpg" alt="Postre 1" class="thumbnail img_postres"/>
+                  <img src="img/torta_helada.jpg" alt="Postre 2" class="thumbnail img_postres"/>
+                  <img src="img/suspiro.jpg" alt="Postre 3" class="thumbnail img_postres"/>
+                </div>
+
+                <div class="row ">
+                  <img src="img/tricopas_helado.jpg" alt="Postre 1" class="thumbnail img_postres"/>
+                  <img src="img/pasta_artesanal.jpg" alt="Postre 2" class="thumbnail img_postres"/>
+                  <img src="img/cheesecake.jpg" alt="Postre 3" class="thumbnail img_postres"/>
+                </div>
+              </div><br>
+              <div class="estilo_historial">
+                <p class="textos">Hitorial</p>
+
+                <p><a href="#">Postres frios </a></p>
+                <p><a href="#">Postres calientes </a></p>
+                <p><a href="#">Salsas Italianas</a></p>
+                <p><a href="#">Pastas </a></p>
+                <p><a href="#">Ravioles </a></p>
+              </div>
+
+            </div>
+          </div>
+          <div class="large-9 columns contenedor_publicaciones">
+            <div class="callout textos">
+              <h3>Pasta Artesanal</h3>
+              <p>21 de Agosto del 2017</p>
+              <div class="row large-uncollapse">
+                <div class="large-12 small-12 medium-6 columns">
+                  <div class="primary callout text-center">
+                    <img src="img/pasta_artesanal.jpg" alt="Decoracion 1" class="thumbnail img_pastas"/>
+
+                  </div>
+                </div>
+            </div>
+            <p>Hacemos un volcán con la harina y cascamos los huevos dentro. Amasamos poco a poco mezclando primero con la punta de los dedos y después con toda la mano. Hay que hacerlo con energía, que quede bien ligado todo. Obtendremos una masa ligeramente dura y se tiene que despegar de las manos. Si nos queda muy seca añadimos un poco de agua y si esta húmeda un poco de harina.
+
+              Dejamos reposar la masa para que la proteína se desarrolle y coja cuerpo. El tiempo es de una media hora tapada con film.
+
+              Después dividimos en varias bolas la masa y con un rodillo la alisamos ligeramente, lo suficiente para pasarla por los rodillos de la máquina de hacer pasta.
+            </p>
+            <form>
+              <div class="grid-x grid-padding-x">
+                <div class="large-12 cell">
+                  <label class="textos">Ingresa un Comentario</label>
+                  <textarea placeholder="...."></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="column text-right estilo_publicar">
+                  <a href="#" class="small button ">Publicar</a>
+                </div>
+              </div>
+            </form>
+
+
+            </div>
+            <hr>
+
+            <div class="callout textos">
+            <h3>Ravioli a la Italiana</h3>
+            <p >15 de Julio del 2017</p>
+            <div class="row large-uncollapse">
+              <div class="large-12 small-12 medium-6 columns">
+                <div class="primary callout text-center">
+                  <img src="img/ravioli.jpg" alt="Decoracion 1" class="thumbnail img_pastas"/>
+
+                </div>
+              </div>
+            </div>
+            <p>
+              Se rehoga la cebolla y el ajo, todo bien picado, en aceite, cuando empiece a tomar color se incorpora el tomate y se condimenta con sal, pimienta, azúcar y perejil.
+              Se deja cocer hasta que se forme una salsa espesa.
+              Cocidos, refrescados y bien escurridos los ravioles, se colocan en una fuente de horno; ravioli, salsa y queso rallado, se mete al horno (que debe estar fuerte) durante cinco minutos.
+              Se sirve en la misma fuente de gratinar.
+            </p>
+            <form>
+              <div class="grid-x grid-padding-x">
+                <div class="large-12 cell">
+                  <label class="textos">Ingresa un Comentario</label>
+                  <textarea placeholder="...."></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="column text-right estilo_publicar">
+                  <a href="#" class="small button ">Publicar</a>
+                </div>
+              </div>
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
+
+formulario foundation
